@@ -1,6 +1,11 @@
 Clone this project into the your Arduino sandbox's hardware subdirectory to add 
 support for the brushbots comm board.
 
+WARNING: the Eagle PCB CAD files in the "BrushBot Eagle Files" folder are
+(as of 4/17/2013) for the original board, which has an error on D6 and D7 of
+BrushBotComm_C.  DO NOT BUILD THIS BOARD AS IS if you want the FET motor drivers
+to work!  A revised schematic and board layout will be posted soon.
+
 The hardware folder will be picked up by the Arduino software and used to 
 augment its list of supported boards.
 
