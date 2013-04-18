@@ -1,1 +1,12 @@
-Clone this project into the Arduino hardware subdirectory to add support for the brushbots comm board.
+Clone this project into the your Arduino sandbox's hardware subdirectory to add 
+support for the brushbots comm board.
+
+The hardware folder will be picked up by the Arduino software and used to 
+augment its list of supported boards.
+
+You must select one of the BrushBot Comm Board selections that will now appear 
+under the Arduino Tools -> Board menu in order to build sketches for your
+BrushBot.
+
+If the Arduino software was open when you cloned this project into your Sandbox,
+you'll need to restart the Arduino software for the new menu items to appear.
